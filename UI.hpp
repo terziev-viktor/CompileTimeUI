@@ -2,6 +2,7 @@
 #define _UI_HPP_
 
 #include <tuple>
+#include <cstring>
 #include "AreUniqueTypes.hpp"
 using std::tuple;
 using std::get;
