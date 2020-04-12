@@ -6,6 +6,7 @@ Each command should satisfy a simple concept:
 
   * Must be a callable object that accepts __char **__ and __int__ as arguments (so the command line arguments that get passed to __int main()__)
   * Must have a __GetTrigger()__ method that returns __const char *__ - the trigger by which the command can be found
+  
 Creating and using a UI object is a peace of cake:
 ```c++
   UI<Command1, Command2> ui;
