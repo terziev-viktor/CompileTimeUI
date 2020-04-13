@@ -53,7 +53,7 @@ struct UI : AreUniqueTypes<CommandTypes...>
 
     constexpr void CallByTrigger(char t[50], char ** a, int b)
     {
-        foreach(Commands, [a, b, t](auto C) 
+        foreach(Commands, [a, b, t](Command C) 
         {
             if (strcmp(t, C.GetTrigger()) == 0)
             {
